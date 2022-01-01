@@ -1,0 +1,64 @@
+.banner-text{
+   background-color: #ffd001;
+   border-radius: 40px;
+}
+.banner-text h1,p{
+   line-height: 40px;
+   font-weight: 700;
+   color: #333333;
+}
+.sign-up-btn{
+   background-color: #333333;
+   color: aliceblue;
+   font-weight: 600;
+   border-radius: 20px;
+   padding: 10px 30px;
+}
+.about-background{
+   background-color: #ffd00121;
+}
+.btn-login{
+   margin-top: 20px;
+   padding: 8px 0;
+   width: 50%;
+   background-color: #333333;
+   color: antiquewhite;
+   border-radius: 20px;
+}
+.btn-login:hover{
+  color: #ffd001;
+}
+.footer{
+   background-color: #333333;
+}
+.footer-logo h3,p{
+ line-height: 17px;
+}
+#links p{
+   color: aliceblue;
+   line-height: 11px;
+}
+.btn-wrapper{
+   position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.upload-btn{
+   border: 2px solid #ffd001;
+  color: rgb(255, 255, 255);
+  background-color: #333333;
+  padding: 6px 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-wrapper input[type=file] {
+   font-size: 100px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   opacity: 0;
+ }
+ .back-yellow{
+    background-color: #ffd001;
+ }
