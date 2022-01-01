@@ -34,7 +34,7 @@ const Ragistration = () => {
       formData.append('nid', nidPic);
       if (password === password_2) {
          registerWithEmailPass(email, password);
-         fetch('http://localhost:4000/user', {
+         fetch('https://driving-services.herokuapp.com/user', {
             method: 'POST',
             body: formData
          })

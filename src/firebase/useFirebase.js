@@ -40,7 +40,7 @@ const useFirebase = () => {
       const unsubscribe = onAuthStateChanged(auth, (user) => {
          if (user) {
             setUser(user);
-            fetch(`http://localhost:4000/user/${user.email}`)
+            fetch(`https://driving-services.herokuapp.com/user/${user.email}`)
                .then(res => res.json())
                .then(data => setAccount(data))
          }

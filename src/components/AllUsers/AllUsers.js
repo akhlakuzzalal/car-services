@@ -4,7 +4,7 @@ import useAuth from '../../firebase/useAuth';
 const AllUsers = () => {
    const [users, setUsers] = useState([])
    useEffect(() => {
-      fetch('http://localhost:4000/users')
+      fetch('https://driving-services.herokuapp.com/users')
          .then(res => res.json())
          .then(data => setUsers(data))
    }, [])
